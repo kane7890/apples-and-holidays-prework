@@ -68,9 +68,13 @@ def all_supplies_in_holidays(holiday_hash)
       print "#{hol.to_s}: "
       supply_count=0
       supplies.each do |supply| 
+        if supply_count > 0 
+          print ", "
+        end
       print "#{supply}"
+      supply_count +=1
       end
-      
+      print "\n"
     end
   end
       
