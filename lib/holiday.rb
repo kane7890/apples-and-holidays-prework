@@ -75,16 +75,16 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string= st_array.join(" ")
       
   # binding.pry
-      puts "#{holiday_string}: "
+      holiday_list = "#{holiday_string}: "
       supply_count=0
       supplies.each do |supply| 
         if supply_count > 0 
-          print ", "
+          holiday_list=holiday_list +", "
         end
-      print "#{supply}"
+      holiday_list = holiday_list + "#{supply}"
       supply_count +=1
       end
-      print "\n"
+      puts "#{holiday_list}"
     end
   end
       
