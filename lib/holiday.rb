@@ -66,7 +66,11 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string=hol.to_s
   # binding.pry
       print "#{hol.to_s}: "
-      supplies.each do |supply| print "#{supply}"
+      supply_count=0
+      supplies.each do |supply| 
+      print "#{supply}"
+      end
+      
     end
   end
       
