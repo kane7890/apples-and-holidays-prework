@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string=hol.to_s
   # binding.pry
       print "#{hol.to_s}: "
-      supplies.each do |supply| puts "#{supply}"
+      supplies.each do |supply| print "#{supply}"
     end
   end
       
