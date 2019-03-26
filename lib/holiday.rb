@@ -69,8 +69,9 @@ def all_supplies_in_holidays(holiday_hash)
         |word| 
  #       binding.pry 
         word.capitalize!
-        binding.pry
+
       end
+      binding.pry
       holiday_string= st_array.join(" ")
       
   # binding.pry
