@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string= st_array.join(" ")
       
   # binding.pry
-      print "#{hol.to_s}: "
+      print "#{holiday_string}: "
       supply_count=0
       supplies.each do |supply| 
         if supply_count > 0 
