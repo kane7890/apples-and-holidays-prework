@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
 #  binding.pry
   holiday_hash.each do |season, holiday|
     season_name=season.to_s
-    print "#{season_name.capitalize}:\n"
+    puts "#{season_name.capitalize}:"
   #  binding.pry
     holiday.each do |hol, supplies|
       holiday_string=hol.to_s
@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string= st_array.join(" ")
       
   # binding.pry
-      print "#{holiday_string}: "
+      puts "#{holiday_string}: "
       supply_count=0
       supplies.each do |supply| 
         if supply_count > 0 
