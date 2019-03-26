@@ -83,7 +83,7 @@ def all_supplies_in_holidays(holiday_hash)
       supply_count +=1
       end
    #   binding.pry
-      puts "\t#{holiday_list}"
+      puts "  #{holiday_list}"
     end
   end
       
