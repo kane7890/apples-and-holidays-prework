@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
     holiday.each do |hol, supplies|
       holiday_string=hol.to_s
   # binding.pry
-      puts "#{hol.to_s} :"
+      puts "#{hol.to_s}:\n\t"
       supplies.each { |supply| puts "#{supply}"}
     end
   end
