@@ -84,7 +84,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_list = holiday_list + "#{supply}"
       supply_count +=1
       end
-      binding.pry
+  3    binding.pry
       puts "#{holiday_list}"
     end
   end
